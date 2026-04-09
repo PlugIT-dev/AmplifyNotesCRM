@@ -27,7 +27,7 @@ ZOHO.embeddedApp.on("PageLoad", (entity) => {
 
 
     //alert("Page loaded: " + JSON.stringify(entity));
-    ZOHO.CRM.UI.Resize({ height: "100%", width: "100%" })
+    ZOHO.CRM.UI.Resize({ height: "640px", width: "100%" })
     .then(function(data) {
         // Construct dynamic URL
         var baseUrl = "https://amplify.plugpv.com/notesembed";  // Your Bubble URL
