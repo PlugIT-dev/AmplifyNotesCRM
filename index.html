@@ -4,9 +4,24 @@
     <meta charset="UTF-8">
     <title>Amplify Notes</title>
     <script src="https://live.zwidgets.com/js-sdk/1.1/ZohoEmbededAppSDK.min.js"></script>
+    <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        overflow: hidden;
+      }
+  
+      #zoho-iframe {
+        width: 100%;
+        height: 100%;
+        border: none;
+        display: block;
+      }
+    </style>
   </head>
   <body>
-    <iframe id="zoho-iframe" src = "https://amplify.plugpv.com/notesembed" padding-bottom= "10px" width="100%" height="560px" scrolling="no" frameborder="0"></iframe>
+    <iframe id="zoho-iframe" src = "https://amplify.plugpv.com/notesembed"></iframe>
     <script type="text/javascript" src="app.js" async defer></script>
   </body>
 </html>
